@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>I'm Sorry ❤️</title>
+<style>
+body{
+    margin:0;
+    padding:0;
+    font-family:Arial, sans-serif;
+    background:linear-gradient(135deg,#ff9a9e,#fad0c4);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    text-align:center;
+}
+.container{
+    background:white;
+    padding:40px;
+    border-radius:20px;
+    max-width:600px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.2);
+}
+h1{
+    color:#ff4d6d;
+}
+p{
+    font-size:18px;
+    color:#555;
+    line-height:1.6;
+}
+button{
+    padding:12px 25px;
+    border:none;
+    border-radius:30px;
+    background:#ff4d6d;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+}
+button:hover{
+    background:#e63956;
+}
+#message{
+    margin-top:20px;
+    font-size:20px;
+    color:#ff4d6d;
+    display:none;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+    <h1>I'm Sorry ❤️</h1>
+
+    <p>
+        Dear [Her Name],<br><br>
+        I know I made mistakes and hurt your feelings.
+        I never wanted to cause you pain.
+        You mean a lot to me, and I truly regret what happened.
+        I hope you can forgive me and give me a chance to make things right.
+    </p>
+
+    <button onclick="showMessage()">Click Here ❤️</button>
+
+    <div id="message">
+        You are very special to me. 🌹<br>
+        Will you forgive me? ❤️
+    </div>
+</div>
+
+<script>
+function showMessage(){
+    document.getElementById("message").style.display = "block";
+}
+</script>
+
+</body>
+</html>
